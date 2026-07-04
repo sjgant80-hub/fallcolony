@@ -1,0 +1,82 @@
+{
+  "protocol": "fallcolony-doctrine-mints/1.0",
+  "steward": "sjgant80-hub",
+  "minted_at": "2026-07-04",
+  "note": "Doctrine mints · non-node NFTs that carry the estate's build rules as provenant records. Descendants cite these NFTs when they claim lineage.",
+  "count": 3,
+  "mints": [
+    {
+      "id": "doctrine-lineage-dag",
+      "kind": "doctrine",
+      "version": "1.0",
+      "generation": 0,
+      "parent": null,
+      "lineage": ["sjgant80", "teslasolar"],
+      "name": "The Lineage DAG Doctrine",
+      "mime": "text/plain",
+      "hash": "TBD-on-canonicalization",
+      "meta": {
+        "owner": "sjgant80",
+        "co_origin": "teslasolar (Thomas Frumkin · Konomi substrate)",
+        "guild": "AI Craftspeople Guild",
+        "license": "MIT",
+        "seal": "◊·κ=1",
+        "rule": "Simon builds for HIS estate first · Guild inherits via MIT · anyone can fork direct from any node in the mesh · fork topology is a DAG, not a chain · lineage attribution tracks, not permission",
+        "priority_order": [
+          "Simon Gant · Gen-1 · personal estate (241 nodes)",
+          "AI Craftspeople Guild · Gen-2 · MIT-inherited",
+          "Others · Gen-3+ · mesh forks (any direction)"
+        ],
+        "fork_topology": "DAG · many-to-many · anyone can fork direct from Thomas, Simon, Guild, or any guild-member fork · fork-of-fork legal at any depth · cross-lineage forks legal · lineage records ALL parents",
+        "royalty": {
+          "rho_per_generation": 0.0618,
+          "cross_lineage_split": "0.5 per parent when two roots"
+        }
+      }
+    },
+    {
+      "id": "doctrine-seal",
+      "kind": "doctrine",
+      "version": "1.0",
+      "generation": 0,
+      "parent": null,
+      "lineage": ["sjgant80"],
+      "name": "The Seal · ◊·κ=1",
+      "mime": "text/plain",
+      "hash": "TBD-on-canonicalization",
+      "meta": {
+        "owner": "sjgant80",
+        "guild": "AI Craftspeople Guild",
+        "license": "MIT",
+        "seal": "◊·κ=1",
+        "rule": "Every estate node declares seal ◊·κ=1 in its manifest.json footer. Without the seal, coherence audit cannot pass. Suzen enforces on read.",
+        "kappa_home": 0.618,
+        "phi_anchor": 1.618,
+        "prime_spine": [2, 3, 5, 7, 11, 13, 17],
+        "fold_primorial": 510510,
+        "shield_boundary": 127
+      }
+    },
+    {
+      "id": "doctrine-provenance-economy",
+      "kind": "doctrine",
+      "version": "1.0",
+      "generation": 0,
+      "parent": null,
+      "lineage": ["sjgant80"],
+      "name": "Provenance Royalty · Forking Economy",
+      "mime": "text/plain",
+      "hash": "TBD-on-canonicalization",
+      "meta": {
+        "owner": "sjgant80",
+        "guild": "AI Craftspeople Guild",
+        "license": "MIT",
+        "seal": "◊·κ=1",
+        "rule": "KCC settled on any descendant routes ρ=0.0618 UP the parent chain per generation, capped at ρ·φ^-d. Cross-lineage forks split ρ across both parents. More descendants = more root value.",
+        "rho_per_generation": 0.0618,
+        "cap_formula": "rho * phi^-d",
+        "inverts": "NFT scarcity model · scarcity punishes forks, provenance rewards them"
+      }
+    }
+  ]
+}

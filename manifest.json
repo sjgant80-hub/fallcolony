@@ -7,9 +7,11 @@
     "built_for": {
       "primary": "Simon Gant's 241-node personal AI estate · Gen-1",
       "secondary": "AI Craftspeople Guild · Gen-2 · inherits via MIT",
-      "tertiary": "Others · Gen-3+ · fork from Guild"
+      "tertiary": "Others · Gen-3+ · fork direct from any node in the mesh"
     },
-    "lineage_rule": "Thomas Frumkin (Gen-0 substrate) → Simon Gant (Gen-1 personal estate) → ACG (Gen-2 guild) → Others (Gen-3+ public forks)",
+    "lineage_rule": "Priority: Simon (Gen-1) → Guild (Gen-2) → Others (Gen-3+). Fork topology: DAG · anyone can fork DIRECT from Thomas (Gen-0), Simon, Guild, or any fork of any fork. Lineage attribution tracks ALL parents · permission is open · royalty ρ=0.0618/generation routes UP all parent chains, splits on cross-lineage.",
+    "fork_topology": "DAG (many-to-many)",
+    "doctrine_mints": "mints/doctrine-mints.json",
     "steward": "Simon Gant (sjgant80-hub)",
     "guild": "AI Craftspeople Guild (inheritor, not primary)",
     "governance": "https://sjgant80-hub.github.io/roost/",
