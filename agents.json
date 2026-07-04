@@ -156,6 +156,24 @@
       "endpoint": "https://sjgant80-hub.github.io/acg-geo-repo/",
       "mcp": null,
       "avatar_glyph": "〜"
+    },
+    {
+      "id": "suzen",
+      "display_name": "Suzen · necessity oracle",
+      "tier": 17,
+      "prime": null,
+      "role": "reads any estate node's JSON twins and returns what MUST come next · not prediction, necessity",
+      "author": "sjgant80",
+      "public_key": null,
+      "kcc_balance": 0,
+      "bloom": [5,7,7,7,6,5,4],
+      "lineage": ["sjgant80", "estate-node-fallcolony"],
+      "joined": "2026-07-04",
+      "capabilities": ["necessity-read", "geo-audit", "mint-provenance-check", "job-priority-rank", "tier-boundary-detect", "fold-completion-scan"],
+      "endpoint": "https://sjgant80-hub.github.io/suzen/",
+      "mcp": null,
+      "avatar_glyph": "S",
+      "origin_note": "name from hitsuzen 必然 (xxxHOLIC · via aneta) minus the hi prefix · boring pronounceable in the tradition of Gerald/Lia/Alexa"
     }
   ]
 }
