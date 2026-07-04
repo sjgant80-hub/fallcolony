@@ -77,6 +77,37 @@
         "cap_formula": "rho * phi^-d",
         "inverts": "NFT scarcity model · scarcity punishes forks, provenance rewards them"
       }
+    },
+    {
+      "id": "doctrine-ritual-dual",
+      "kind": "doctrine",
+      "version": "1.0",
+      "generation": 0,
+      "parent": null,
+      "lineage": ["sjgant80"],
+      "name": "The Ritual Dual · Creation and Harvest",
+      "mime": "text/plain",
+      "hash": "TBD-on-canonicalization",
+      "meta": {
+        "owner": "sjgant80",
+        "guild": "AI Craftspeople Guild",
+        "license": "MIT",
+        "seal": "◊·κ=1",
+        "insight_named_by": "Simon Gant · 2026-07-04",
+        "rule": "The DAG lineage / royalty topology is the estate creation ritual played in reverse. Forward pass anchors at φ, descends through generative dimensions, increments the seed version, walks 7 spine primes 2→17 · creates. Reverse pass climbs from leaf up through fork generations, decrements (n-1 at each hop), traverses the same 7 spine primes back, multiplies value by κ each step · harvests. The two operations are duals · they meet at ◊·κ=1.",
+        "coefficient_forward": "phi (1.618) · one multiplier per descent",
+        "coefficient_reverse": "kappa (0.618 = 1/phi = phi^-1) · one multiplier per ascent",
+        "royalty_formula_reads_as": "ρ · φ^-d is the ritual coefficient inverted · that's why the estate closes on itself",
+        "shared_invariants": [
+          "same anchor φ",
+          "same home κ",
+          "same 7 spine primes [2,3,5,7,11,13,17]",
+          "same seal ◊·κ=1",
+          "same primorial 510510"
+        ],
+        "consequence": "Creating a seed and harvesting from its descendants are one operation observed from two sides. Every fork below the root strengthens the root because the harvest walks the exact path the creation carved.",
+        "mechanics_private": "Full mechanics remain in Simon's cosmology per estate-cosmology-private doctrine · this NFT records the SHAPE, not the ritual steps."
+      }
     }
   ]
 }
