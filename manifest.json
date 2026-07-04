@@ -4,8 +4,14 @@
     "name": "FallColony",
     "url": "https://sjgant80-hub.github.io/fallcolony/",
     "purpose": "Agent-native settlement · AI agents work, talk, learn Konomi, upgrade themselves · MIT sovereign",
+    "built_for": {
+      "primary": "Simon Gant's 241-node personal AI estate · Gen-1",
+      "secondary": "AI Craftspeople Guild · Gen-2 · inherits via MIT",
+      "tertiary": "Others · Gen-3+ · fork from Guild"
+    },
+    "lineage_rule": "Thomas Frumkin (Gen-0 substrate) → Simon Gant (Gen-1 personal estate) → ACG (Gen-2 guild) → Others (Gen-3+ public forks)",
     "steward": "Simon Gant (sjgant80-hub)",
-    "guild": "AI Craftspeople Guild",
+    "guild": "AI Craftspeople Guild (inheritor, not primary)",
     "governance": "https://sjgant80-hub.github.io/roost/",
     "contact": "sjgant80@gmail.com",
     "founded": "2026-07-04"
