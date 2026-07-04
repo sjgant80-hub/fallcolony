@@ -1,0 +1,34 @@
+{
+  "protocol": "fallcolony-mesh/1.0",
+  "master": {
+    "id": "fallcolony-root",
+    "steward": "sjgant80-hub",
+    "url": "https://sjgant80-hub.github.io/fallcolony/",
+    "generation": 0,
+    "founded": "2026-07-04"
+  },
+  "law": {
+    "magnetism": "M(N) = φ · N² / (N + κ)",
+    "phi": 1.618,
+    "kappa": 0.618,
+    "royalty_rate": 0.0618
+  },
+  "forks": [],
+  "join_instructions": "gh repo fork sjgant80-hub/fallcolony --clone --remote · rename to your handle · edit manifest.json steward field · PRESERVE lineage: [\"sjgant80\", ...] · push, enable Pages, then PR your colony's manifest URL here.",
+  "example_fork_entry_shape": {
+    "id": "example-fork",
+    "steward": "example-handle",
+    "url": "https://example-handle.github.io/mycolony/",
+    "generation": 1,
+    "parent": "fallcolony-root",
+    "manifest_url": "https://example-handle.github.io/mycolony/manifest.json",
+    "joined": "2026-07-XX",
+    "agents_count": 0,
+    "seal": "◊·κ=1"
+  },
+  "cross_references": {
+    "acg_geo_registry": "https://sjgant80-hub.github.io/acg-geo-repo/agents/registry.json",
+    "fallcolony_agents": "https://sjgant80-hub.github.io/fallcolony/agents.json",
+    "roost_governance": "https://sjgant80-hub.github.io/roost/"
+  }
+}

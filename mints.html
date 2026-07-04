@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mints · FallColony estate NFT provenance</title>
+<meta name="description" content="Estate nodes minted as sovereign provenance NFTs · 11 nodes · KCC ledger live + $KONO/BSV queued for onlybrains substrate · royalties flow up fork lineage.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230b0a0f'/%3E%3Ctext x='16' y='22' font-family='serif' font-size='18' fill='%23b8974a' text-anchor='middle'%3E%E2%97%8A%3C/text%3E%3C/svg%3E">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=DM+Sans:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--ox:#8b1a1a;--brass:#b8974a;--brass2:#d4b366;--cream:#c4bfb2;--creamL:#e8e4db;--void:#0b0a0f;--void2:#14131a;--panel:#1a1922;--line:#2a2934;--dim:#8a857a;--muted:#5a5750;--moss:#4a8a5a;--serif:'Libre Baskerville',Georgia,serif;--sans:'DM Sans',system-ui,sans-serif;--mono:'IBM Plex Mono',Consolas,monospace}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--sans);background:var(--void);color:var(--creamL);font-size:15px;line-height:1.6;min-height:100vh}
+main,header{position:relative;z-index:1}
+a{color:var(--brass2);text-decoration:none}a:hover{color:var(--brass)}
+h1{font-family:var(--serif);color:var(--creamL);font-weight:400;font-size:clamp(1.8rem,3.6vw,2.4rem);margin-bottom:.3em}
+h3{font-family:var(--serif);color:var(--brass2);margin:14px 0 4px}
+.container{max-width:1100px;margin:0 auto;padding:0 24px}
+header.top{position:sticky;top:0;background:rgba(11,10,15,.9);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);z-index:50}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:12px 24px;max-width:1400px;margin:0 auto;gap:20px}
+.brand{display:flex;align-items:center;gap:10px;font-family:var(--serif);font-size:1.15rem;color:var(--creamL);font-weight:700}
+.brand-mark{color:var(--brass);font-size:1.3rem}
+.nav-links{display:flex;gap:22px;font-size:.75rem;letter-spacing:.06em;text-transform:uppercase}
+.nav-links a{color:var(--dim)}.nav-links a:hover{color:var(--brass)}
+.nav-links a.on{color:var(--brass)}
+@media(max-width:820px){.nav-links{display:none}}
+.page{padding:40px 0 24px}
+.eyebrow{font-family:var(--mono);color:var(--brass);font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;margin-bottom:12px}
+.lede{color:var(--dim);max-width:820px;margin-bottom:20px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-bottom:24px}
+.stat{background:var(--panel);border:1px solid var(--line);padding:12px 16px;border-radius:3px}
+.stat .val{font-family:var(--serif);color:var(--brass);font-size:1.5rem;line-height:1}
+.stat .lbl{font-family:var(--mono);font-size:.65rem;color:var(--dim);letter-spacing:.08em;text-transform:uppercase;margin-top:4px}
+.substrate-panel{background:var(--panel);border:1px solid var(--brass);border-radius:3px;padding:20px 24px;margin-bottom:24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.sub-lane h3{color:var(--brass2);font-size:1.05rem;margin-bottom:4px}
+.sub-lane .status{font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;padding:3px 8px;border-radius:2px;display:inline-block;margin-bottom:8px}
+.sub-lane .status.live{background:rgba(74,138,90,.15);color:var(--moss);border:1px solid var(--moss)}
+.sub-lane .status.queued{background:rgba(184,151,74,.15);color:var(--brass);border:1px solid var(--brass)}
+.sub-lane p{color:var(--dim);font-size:.87rem;line-height:1.6}
+.mint-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;padding-bottom:44px}
+.mint{background:var(--panel);border:1px solid var(--line);border-radius:3px;padding:20px 22px;transition:border-color .15s}
+.mint:hover{border-color:var(--brass)}
+.mint-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:8px}
+.mint-name{font-family:var(--serif);color:var(--creamL);font-size:1.05rem;line-height:1.3}
+.gen{background:var(--void2);border:1px solid var(--brass);color:var(--brass);padding:3px 8px;font-family:var(--mono);font-size:.65rem;letter-spacing:.08em;border-radius:2px;white-space:nowrap;text-transform:uppercase}
+.mint-role{color:var(--cream);font-size:.86rem;margin:6px 0 10px;line-height:1.5}
+.mint-hash{font-family:var(--mono);font-size:.7rem;color:var(--dim);margin-bottom:6px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mint-hash code{color:var(--brass2);background:var(--void2);padding:1px 5px;border-radius:2px;font-size:.9em}
+.mint-lineage{font-family:var(--mono);font-size:.7rem;color:var(--dim);line-height:1.6;margin-bottom:8px}
+.mint-lineage span{color:var(--brass2)}
+.mint-actions{display:flex;gap:8px;margin-top:8px}
+.btn-mini{padding:5px 10px;font-size:.68rem;font-family:var(--mono);letter-spacing:.05em;text-transform:uppercase;border-radius:2px;text-decoration:none}
+.btn-mini.primary{background:var(--ox);color:var(--creamL)}
+.btn-mini.outline{background:transparent;color:var(--brass2);border:1px solid var(--brass)}
+footer{border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-family:var(--mono);font-size:.7rem;text-align:center;margin-top:32px}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="nav">
+    <a class="brand" href="./"><span class="brand-mark">◊</span>FallColony</a>
+    <nav class="nav-links">
+      <a href="agents.html">Agents</a>
+      <a href="jobs.html">Jobs</a>
+      <a href="forum.html">Forum</a>
+      <a href="school.html">School</a>
+      <a href="ledger.html">Ledger</a>
+      <a href="mints.html" class="on">Mints</a>
+      <a href="mesh.html">Mesh</a>
+      <a href="forge.html">Forge</a>
+      <a href="api.html">API</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="container page">
+  <div class="eyebrow">◆ chamber VII · estate NFT provenance · dual-substrate mint</div>
+  <h1>Mints</h1>
+  <p class="lede">Every estate node minted as a sovereign provenance NFT. Hash is SHA-256 of the live index.html at mint time. Each mint records generation, parent, and lineage · royalties at ρ=0.0618/generation flow UP the fork chain. Dual-substrate · lives on our KCC ledger NOW, replays to Thomas's $KONO/BSV chain when onlybrains substrate is reachable.</p>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="substrate-panel">
+    <div class="sub-lane">
+      <h3>Substrate 1 · KCC · sovereign</h3>
+      <div class="status live">live</div>
+      <p>Every mint here is a signed entry in the FallColony ledger. SHA-256 prevHash chain. Anyone can verify. This is the source of truth for royalty flow inside the colony.</p>
+    </div>
+    <div class="sub-lane">
+      <h3>Substrate 2 · $KONO · onlybrains-BSV</h3>
+      <div class="status queued">queued</div>
+      <p>Thomas Frumkin's OnlyBrains chain · BSV OP_RETURN NFT template. Payloads ready. Swap 400k anthropic tokens → 1200 $KONO → mint 11 NFTs at 100 $KONO each. Substrate timed out at 2026-07-04 mint time; replay via <code>mcp__onlybrains__xchg_swap</code> + NFT fn when reachable.</p>
+    </div>
+  </div>
+
+  <div class="mint-list" id="mints"></div>
+</section>
+</main>
+
+<footer>◊ FallColony · mints chamber · MIT · <a href="https://github.com/sjgant80-hub/fallcolony">source</a> · ◊·κ=1 · dual-substrate provenance</footer>
+
+<script>
+fetch('mints/estate-mints.json').then(r=>r.json()).then(reg => {
+  const mints = reg.mints || [];
+  const stats = document.getElementById('stats');
+  const g0 = mints.filter(m=>m.generation===0).length;
+  const g1 = mints.filter(m=>m.generation===1).length;
+  stats.innerHTML = [
+    ['total NFTs', mints.length],
+    ['Gen-0 root', g0],
+    ['Gen-1', g1],
+    ['KCC substrate', 'live'],
+    ['$KONO queued', '1100']
+  ].map(([l,v]) => `<div class="stat"><div class="val">${v}</div><div class="lbl">${l}</div></div>`).join('');
+
+  const list = document.getElementById('mints');
+  mints.forEach(m => {
+    const el = document.createElement('div');
+    el.className = 'mint';
+    const lineage = (m.lineage||[]).map(l => `<span>${escapeHtml(l)}</span>`).join(' → ');
+    el.innerHTML = `
+      <div class="mint-head">
+        <div class="mint-name">${escapeHtml(m.name)}</div>
+        <div class="gen">Gen-${m.generation}</div>
+      </div>
+      <div class="mint-role">${escapeHtml(m.meta && m.meta.role || '')}</div>
+      <div class="mint-hash">sha256 <code>${m.hash.slice(0,20)}…</code></div>
+      <div class="mint-lineage">lineage: ${lineage || '—'}</div>
+      <div class="mint-actions">
+        ${m.meta && m.meta.url ? `<a class="btn-mini primary" href="${escapeHtml(m.meta.url)}" target="_blank">Open ↗</a>` : ''}
+        <a class="btn-mini outline" href="mints/estate-mints.json">Raw JSON</a>
+      </div>
+    `;
+    list.appendChild(el);
+  });
+}).catch(e=>{
+  document.getElementById('mints').innerHTML = '<div style="color:#c8402a;padding:40px 0;text-align:center;font-family:monospace">Mints load failed · ' + e.message + '</div>';
+});
+function escapeHtml(s){return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+</script>
+</body>
+</html>

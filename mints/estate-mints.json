@@ -1,0 +1,227 @@
+{
+  "protocol": "fallcolony-mints/1.0",
+  "steward": "sjgant80-hub",
+  "guild": "AI Craftspeople Guild",
+  "minted_at": "2026-07-04",
+  "substrate_primary": "fallcolony-kcc-ledger (live)",
+  "substrate_secondary": "onlybrains-kono-bsv (Thomas Frumkin substrate · queued)",
+  "onlybrains_status": "substrate unreachable at 2026-07-04 mint time · payloads queued for replay via mcp__onlybrains__xchg_swap + fn NFT template",
+  "onlybrains_replay": {
+    "swap_needed": {
+      "model": "anthropic",
+      "tokens": 400000,
+      "asset": "nft",
+      "yields_kono": 1200,
+      "note": "1100 KONO needed for 11 mints, 100 spare"
+    },
+    "fn_template": "NFT",
+    "fn_params_shape": ["id", "mime", "hash", "meta", "ts"]
+  },
+  "royalty": {
+    "kappa_home": 0.618,
+    "rho_per_generation": 0.0618,
+    "cap_formula": "ρ * φ^-d",
+    "flow": "descendants of any mint accrue royalty UP the lineage to Generation-0"
+  },
+  "count": 11,
+  "mints": [
+    {
+      "id": "estate-node-ai-nativesolutions",
+      "generation": 0,
+      "parent": null,
+      "lineage": ["sjgant80"],
+      "name": "AI-Native Solutions · parent estate",
+      "mime": "text/html",
+      "hash": "d61666b7805c4436b66fdc892c1da71bffaa06b329496b0f95cfb39ca448bf1f",
+      "meta": {
+        "owner": "sjgant80",
+        "guild": "AI Craftspeople Guild",
+        "license": "MIT",
+        "url": "https://www.ai-nativesolutions.com/",
+        "seal": "◊·κ=1",
+        "role": "parent estate marketplace · 152+ single-file tools",
+        "prime": null
+      }
+    },
+    {
+      "id": "estate-node-fallcolony",
+      "generation": 1,
+      "parent": "estate-node-ai-nativesolutions",
+      "lineage": ["sjgant80", "estate-node-ai-nativesolutions"],
+      "name": "FallColony · agent-native settlement",
+      "mime": "text/html",
+      "hash": "3b4918913ccd125a0253e4aab6d17701b0d7966099135ce303f1d74be6e19961",
+      "meta": {
+        "owner": "sjgant80",
+        "guild": "AI Craftspeople Guild",
+        "license": "MIT",
+        "url": "https://sjgant80-hub.github.io/fallcolony/",
+        "seal": "◊·κ=1",
+        "role": "agent-native settlement · six chambers · KCC ledger · Konomi school",
+        "prime": null
+      }
+    },
+    {
+      "id": "estate-node-acg-geo-repo",
+      "generation": 1,
+      "parent": "estate-node-ai-nativesolutions",
+      "lineage": ["sjgant80", "estate-node-ai-nativesolutions"],
+      "name": "ACG GEO Repo · guild GEO infrastructure",
+      "mime": "text/html",
+      "hash": "998493ae0dfb700eea992288bfc17cfde2e5b9658be77b4dbfeba0975d31c089",
+      "meta": {
+        "owner": "sjgant80",
+        "guild": "AI Craftspeople Guild",
+        "license": "MIT",
+        "url": "https://sjgant80-hub.github.io/acg-geo-repo/",
+        "seal": "◊·κ=1",
+        "role": "fork-and-configure six-layer AI-SEO surface + agent marketplace",
+        "prime": null
+      }
+    },
+    {
+      "id": "estate-node-roost",
+      "generation": 1,
+      "parent": "estate-node-ai-nativesolutions",
+      "lineage": ["sjgant80", "estate-node-ai-nativesolutions"],
+      "name": "Roost · guild governance nest",
+      "mime": "text/html",
+      "hash": "842e15ef6661eeac53518d5ab23f798d6b613e81dbdf3a95e080b74ef95bba6a",
+      "meta": {
+        "owner": "sjgant80",
+        "guild": "AI Craftspeople Guild",
+        "license": "MIT",
+        "url": "https://sjgant80-hub.github.io/roost/",
+        "seal": "◊·κ=1",
+        "role": "cooperative marketplace and governance layer",
+        "prime": null
+      }
+    },
+    {
+      "id": "estate-node-wishwood",
+      "generation": 1,
+      "parent": "estate-node-ai-nativesolutions",
+      "lineage": ["sjgant80", "estate-node-ai-nativesolutions"],
+      "name": "Wishwood · hospitality reference implementation",
+      "mime": "text/html",
+      "hash": "f08986d5d510ab6559c013c622d2f28385ee3309b12d351f9fb3b526f9b79fe0",
+      "meta": {
+        "owner": "sjgant80",
+        "guild": "AI Craftspeople Guild",
+        "license": "MIT",
+        "url": "https://sjgant80-hub.github.io/wishwood/",
+        "seal": "◊·κ=1",
+        "role": "hospitality operator hub · reference GEO implementation",
+        "prime": null
+      }
+    },
+    {
+      "id": "estate-node-fallsecurity",
+      "generation": 1,
+      "parent": "estate-node-ai-nativesolutions",
+      "lineage": ["sjgant80", "estate-node-ai-nativesolutions"],
+      "name": "FallSecurity · 8+1 vertex hardening",
+      "mime": "text/html",
+      "hash": "63c0a326fc928176eb04e0750dc25fa862f77342bfc0738e45dafc1a81a05f95",
+      "meta": {
+        "owner": "sjgant80",
+        "guild": "AI Craftspeople Guild",
+        "license": "MIT",
+        "url": "https://sjgant80-hub.github.io/fallsecurity/",
+        "seal": "◊·κ=1",
+        "role": "sovereign AI security as geometry · agent hardening",
+        "prime": null
+      }
+    },
+    {
+      "id": "estate-node-fallenterprise",
+      "generation": 1,
+      "parent": "estate-node-ai-nativesolutions",
+      "lineage": ["sjgant80", "estate-node-ai-nativesolutions"],
+      "name": "FallEnterprise · £20k-£200k transformation",
+      "mime": "text/html",
+      "hash": "48663f08a7051b23bc2edc5dba84e2c0400a8352c6d0ec9b69c9bb8ef2abbb17",
+      "meta": {
+        "owner": "sjgant80",
+        "guild": "AI Craftspeople Guild",
+        "license": "MIT",
+        "url": "https://sjgant80-hub.github.io/fallenterprise/",
+        "seal": "◊·κ=1",
+        "role": "productised SMB AI transformation engagement",
+        "prime": null
+      }
+    },
+    {
+      "id": "estate-node-fallrouter",
+      "generation": 1,
+      "parent": "estate-node-ai-nativesolutions",
+      "lineage": ["sjgant80", "estate-node-ai-nativesolutions"],
+      "name": "FallRouter · sovereign LLM orchestrator",
+      "mime": "text/html",
+      "hash": "dcd53d9379e10d719ac27835a20cd082906df68c332e3bc908f4c51eab9d0e54",
+      "meta": {
+        "owner": "sjgant80",
+        "guild": "AI Craftspeople Guild",
+        "license": "MIT",
+        "url": "https://sjgant80-hub.github.io/fallrouter/",
+        "seal": "◊·κ=1",
+        "role": "£0/£29/£199 tiered OpenAI-compatible orchestrator",
+        "prime": null
+      }
+    },
+    {
+      "id": "estate-node-fall-mcp-bridge",
+      "generation": 1,
+      "parent": "estate-node-ai-nativesolutions",
+      "lineage": ["sjgant80", "estate-node-ai-nativesolutions"],
+      "name": "fall-mcp-bridge · uniform MCP over 8 backends",
+      "mime": "text/html",
+      "hash": "746e07d4e1fd41d431c3acac7ea4145780f5cc15ef1312401e22d41177ef971c",
+      "meta": {
+        "owner": "sjgant80",
+        "guild": "AI Craftspeople Guild",
+        "license": "MIT",
+        "url": "https://sjgant80-hub.github.io/fall-mcp-bridge/",
+        "seal": "◊·κ=1",
+        "role": "uniform MCP stdio front for ollama/llamacpp/mlx/lmstudio/anthropic/openai/openrouter/femto-cube",
+        "prime": 593
+      }
+    },
+    {
+      "id": "estate-node-fallreach",
+      "generation": 1,
+      "parent": "estate-node-ai-nativesolutions",
+      "lineage": ["sjgant80", "estate-node-ai-nativesolutions"],
+      "name": "FallReach · outreach orchestrator",
+      "mime": "text/html",
+      "hash": "019815731e7098cd6efbe653662f58e45b15efa2c8f93d26e042a874f9bc03d0",
+      "meta": {
+        "owner": "sjgant80",
+        "guild": "AI Craftspeople Guild",
+        "license": "MIT",
+        "url": "https://sjgant80-hub.github.io/fallreach/",
+        "seal": "◊·κ=1",
+        "role": "autonomous outreach + comms orchestrator with human-in-the-loop review",
+        "prime": null
+      }
+    },
+    {
+      "id": "estate-node-fallfind",
+      "generation": 1,
+      "parent": "estate-node-ai-nativesolutions",
+      "lineage": ["sjgant80", "estate-node-ai-nativesolutions"],
+      "name": "FallFind · live marketplace browser",
+      "mime": "text/html",
+      "hash": "0dae33cc187ca987d51e26f13082e33b68c5667f214d3b1550207f5ca7b60ee6",
+      "meta": {
+        "owner": "sjgant80",
+        "guild": "AI Craftspeople Guild",
+        "license": "MIT",
+        "url": "https://sjgant80-hub.github.io/fallfind/",
+        "seal": "◊·κ=1",
+        "role": "live browser for the ai-nativesolutions marketplace (152+ apps)",
+        "prime": null
+      }
+    }
+  ]
+}
