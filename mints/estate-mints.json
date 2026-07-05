@@ -4077,45 +4077,45 @@
       }
     },
     {
-      "id": "estate-node-forge-lab",
+      "id": "estate-node-foundry-lab",
       "generation": 1,
       "parent": "estate-node-ai-nativesolutions",
       "lineage": [
         "sjgant80",
         "estate-node-ai-nativesolutions"
       ],
-      "name": "forge-lab",
+      "name": "foundry-lab",
       "mime": "text/html",
       "hash": "668fe821f5225ef5a1c9c01abc45e4c3fc5e57e761a8d992d087480379efe712",
       "meta": {
         "owner": "sjgant80",
         "guild": "AI Craftspeople Guild",
         "license": "MIT",
-        "url": "https://sjgant80-hub.github.io/forge-lab/",
-        "repo_url": "https://github.com/sjgant80-hub/forge-lab",
+        "url": "https://sjgant80-hub.github.io/foundry-lab/",
+        "repo_url": "https://github.com/sjgant80-hub/foundry-lab",
         "seal": "◊·κ=1",
-        "role": "Forge Lab - Domain Expert Tool Builder - prime 47",
+        "role": "Foundry Lab - Domain Expert Tool Builder - prime 47",
         "private": false,
         "pushed_at": "2026-06-11T04:41:34Z"
       }
     },
     {
-      "id": "estate-node-forge-upgrade",
+      "id": "estate-node-foundry-upgrade",
       "generation": 1,
       "parent": "estate-node-ai-nativesolutions",
       "lineage": [
         "sjgant80",
         "estate-node-ai-nativesolutions"
       ],
-      "name": "forge-upgrade",
+      "name": "foundry-upgrade",
       "mime": "text/html",
       "hash": "a1e6c871ea78992fab1d88e5e0668493fc17becfc9a29d9bd9f9e1fd82bf9a47",
       "meta": {
         "owner": "sjgant80",
         "guild": "AI Craftspeople Guild",
         "license": "MIT",
-        "url": "https://sjgant80-hub.github.io/forge-upgrade/",
-        "repo_url": "https://github.com/sjgant80-hub/forge-upgrade",
+        "url": "https://sjgant80-hub.github.io/foundry-upgrade/",
+        "repo_url": "https://github.com/sjgant80-hub/foundry-upgrade",
         "seal": "◊·κ=1",
         "role": "Upload any HTML / Replit / Lovable / .md spec. Get it back sovereign. The torus that eats the old web.",
         "private": false,
@@ -4600,7 +4600,7 @@
         "url": "https://sjgant80-hub.github.io/konomi-signer/",
         "repo_url": "https://github.com/sjgant80-hub/konomi-signer",
         "seal": "◊·κ=1",
-        "role": "Sovereign Ed25519 trial signer · imported by every estate product's forge.html · key stays on laptop · MIT · ◊·κ=1",
+        "role": "Sovereign Ed25519 trial signer · imported by every estate product's foundry.html · key stays on laptop · MIT · ◊·κ=1",
         "private": false,
         "pushed_at": "2026-05-31T01:39:58Z"
       }
@@ -5365,22 +5365,22 @@
       }
     },
     {
-      "id": "estate-node-trilogy-forge",
+      "id": "estate-node-trilogy-foundry",
       "generation": 1,
       "parent": "estate-node-ai-nativesolutions",
       "lineage": [
         "sjgant80",
         "estate-node-ai-nativesolutions"
       ],
-      "name": "trilogy-forge",
+      "name": "trilogy-foundry",
       "mime": "text/html",
       "hash": "380d9132d03c0ce7be645f974ff2da8bc370b2c00b917f6538e8b2938d5cdf1e",
       "meta": {
         "owner": "sjgant80",
         "guild": "AI Craftspeople Guild",
         "license": "MIT",
-        "url": "https://sjgant80-hub.github.io/trilogy-forge/",
-        "repo_url": "https://github.com/sjgant80-hub/trilogy-forge",
+        "url": "https://sjgant80-hub.github.io/trilogy-foundry/",
+        "repo_url": "https://github.com/sjgant80-hub/trilogy-foundry",
         "seal": "◊·κ=1",
         "role": "The Psychological Build Engine - Jung + Freud + Sales 101. Auto-generates elite AI configs per client archetype, shadow, and role psychology.",
         "private": false,
@@ -5388,24 +5388,24 @@
       }
     },
     {
-      "id": "estate-node-trilogy-forge-api",
+      "id": "estate-node-trilogy-foundry-api",
       "generation": 1,
       "parent": "estate-node-ai-nativesolutions",
       "lineage": [
         "sjgant80",
         "estate-node-ai-nativesolutions"
       ],
-      "name": "trilogy-forge-api",
+      "name": "trilogy-foundry-api",
       "mime": "text/html",
       "hash": "83ffa7057f26507a1f6e42970ce44b8aec58eb7a8f2cae4bcc077d36cd70c395",
       "meta": {
         "owner": "sjgant80",
         "guild": "AI Craftspeople Guild",
         "license": "MIT",
-        "url": "https://sjgant80-hub.github.io/trilogy-forge-api/",
-        "repo_url": "https://github.com/sjgant80-hub/trilogy-forge-api",
+        "url": "https://sjgant80-hub.github.io/trilogy-foundry-api/",
+        "repo_url": "https://github.com/sjgant80-hub/trilogy-foundry-api",
         "seal": "◊·κ=1",
-        "role": "The factory that makes factories. POST config, GET a sovereign HTML application. 9 forge types, 4 data APIs, AI agent swarms, works offline.",
+        "role": "The factory that makes factories. POST config, GET a sovereign HTML application. 9 foundry types, 4 data APIs, AI agent swarms, works offline.",
         "private": false,
         "pushed_at": "2026-05-29T00:54:23Z"
       }
