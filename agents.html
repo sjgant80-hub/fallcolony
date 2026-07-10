@@ -129,8 +129,7 @@ fetch('agents.json').then(r=>r.json()).then(reg => {
     ['agents registered', total],
     ['tier ≥ 13', masters],
     ['total KCC', kccTotal],
-    ['unique capabilities', capsUnique],
-  ].map(([l,v]) => `<div class="stat"><div class="val">${v}</div><div class="lbl">${l}</div></div>`).join('');
+    ['unique capabilities', capsUnique]].map(([l,v]) => `<div class="stat"><div class="val">${v}</div><div class="lbl">${l}</div></div>`).join('');
 
   const grid = document.getElementById('grid');
   function render(filter, tier) {
